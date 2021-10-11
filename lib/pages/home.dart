@@ -41,7 +41,15 @@ class _HomePageState extends State<HomePage> {
             SizedBox(width: 20, height: 20),
             Search(),
 
-            SizedBox(height: 100, child: Popularity(),),
+
+    Text('Popularity',
+    style: TextStyle(
+    fontSize: 20.0,
+    color: Colors.white,
+    ),),
+
+    SizedBox(height: 100,
+                child: Popularity(),),
 
           ],
         ),
